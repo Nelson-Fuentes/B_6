@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nelson.women">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Vender"
+            android:label="@string/vender_"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Ventas"
+            android:label="@string/mis_ven"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Sended"
+            android:label="@string/title_activity_sended"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Received"
+            android:label="@string/title_activity_received"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MisProd"
+            android:label="@string/mis_pro"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Ver_Usuarios"
+            android:label="Olivia Holt"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Prueba"
+            android:label="@string/title_activity_prueba"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MisCompras"
+            android:label="@string/mis_comp"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Index"
+            android:label="Women">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/login" />
+        <activity
+            android:name=".Productos"
+            android:label="@string/rop"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Registrarse" />
+        <activity
+            android:name=".Comprar"
+            android:label="@string/comprar"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ProductosEnVenta"
+            android:label="@string/title_activity_productos_en_venta"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ProductosPendientes"
+            android:label="@string/title_activity_productos_pendientes"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

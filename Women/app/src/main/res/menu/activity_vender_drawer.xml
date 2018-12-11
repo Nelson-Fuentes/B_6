@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_prod"
+            android:icon="@drawable/ropa"
+            android:title="@string/rop" />
+        <item
+            android:id="@+id/nav_miscompras"
+            android:icon="@drawable/carrito"
+            android:title="@string/mis_comp" />
+        <item
+            android:id="@+id/nav_mypro"
+            android:icon="@drawable/mis_prod"
+            android:title="@string/mis_pro" />
+        <item
+            android:id="@+id/nav_ventas"
+            android:icon="@drawable/ventas"
+            android:title="@string/mis_ven" />
+        <item
+            android:id="@+id/nav_vender"
+            android:icon="@drawable/vender"
+            android:title="@string/title_activity_vender" />
+        <item
+            android:id="@+id/nav_sended"
+            android:icon="@drawable/sended"
+            android:title="@string/title_activity_sended" />
+        <item
+            android:id="@+id/nav_received"
+            android:icon="@drawable/recived"
+            android:title="@string/title_activity_received" />
+        <item
+            android:id="@+id/nav_productospendientes"
+            android:icon="@drawable/ppen"
+            android:title="@string/title_activity_productos_pendientes" />
+
+    </group>
+
+   <!-- <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>-->
+
+</menu>
